@@ -18,7 +18,8 @@ html, body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1A1A1D;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 48%, rgba(4,97,159,1) 100%);
 }
 
 .joinInnerContainer {
@@ -42,7 +43,7 @@ html, body {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: linear-gradient(90deg, rgba(4,97,159,1) 0%, rgba(0,0,0,1) 52%);
     padding: 20px;
     border-radius: 5px;
     display: inline-block;
