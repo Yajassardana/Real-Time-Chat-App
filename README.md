@@ -1,6 +1,6 @@
 Real Time Chat App
 =======================
-A **Real-Time** chat application with multiple custom room and user sign-up functionalities
+A **Real-Time** chat application with multiple custom rooms and user sign-up functionalities
 1. **Sockets.io** - Used to implement the real-time functionalities by sending triggering and monitoring events on a topic-subscription based model.
 2. **ReactJS** - The front end has been built using ReactJs to implement live state-change handling on (send/receive) message events.
 
@@ -11,7 +11,7 @@ A **Real-Time** chat application with multiple custom room and user sign-up func
 ### Chat Box ui
 ![Chat](https://github.com/Yajassardana/Real-Time-Chat-App/blob/master/README/Screenshot%20(59).png)
 
-#### Welcome Message and Notification on any user joining
+#### Welcome Message and Notification on the joining of any user
 ![Welcome](https://github.com/Yajassardana/Real-Time-Chat-App/blob/master/README/Screenshot%20(60).png)
 #### Scroll-down button to improve UX
 ![Scroll](https://github.com/Yajassardana/Real-Time-Chat-App/blob/master/README/Screenshot%20(62).png)
