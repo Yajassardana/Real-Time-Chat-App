@@ -11,7 +11,7 @@ import './Chat.css';
 
 let socket;
 
-const Chat = ({ location }) => {
+const Chat = ({ location, history }) => {
 	const [name, setName] = useState('');
 	const [room, setRoom] = useState('');
 	const [users, setUsers] = useState('');
@@ -30,6 +30,7 @@ const Chat = ({ location }) => {
 		socket.emit('join', { name, room }, (error) => {
 			if (error) {
 				alert(error);
+				history.push('/');
 			}
 		});
 	}, [ENDPOINT, location.search]);
